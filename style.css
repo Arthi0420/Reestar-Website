@@ -1,0 +1,92 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+nav{
+background-color: black;
+color: white;
+text-align: center;
+padding: 20px;
+margin-bottom: 3px;
+margin-left: 50px;
+margin-right: 50px;
+}
+.header__title{
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.header__desc{
+    padding-top: 10px;
+    color: burlywood;
+}
+
+.recipe-one,.recipe-two,.recipe-three,.recipe-four{
+    display: inline-block;
+    padding: 2px;
+    border: solid black 3px;
+    margin: 3px;
+}
+
+.recipe-one__name,.recipe-two__name,.recipe-three__name,.recipe-four__name,.recipe-one__desc,.recipe-two__desc,.recipe-three__desc,.recipe-four__desc{
+    text-align: center;
+}
+
+.recipe-one,.recipe-two,.recipe-three,.recipe-four{
+    text-align: center;
+    
+}
+
+.container{
+    text-align: center;
+    display: inline-block;
+    border: 0;
+    margin: 0;
+    margin-left: 170px;
+    padding-top: 1px;
+    
+}
+
+.contact-form{
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+    
+}
+
+.contact-form__input{
+    padding: 5px;
+    margin: 2px;
+    
+}
+
+.input-form__input{
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    background-color: greenyellow;
+}
+
+.recipe-four__button,.recipe-three__button,.recipe-two__button,.recipe-one__button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+
+}
+.recipe-four__desc{
+    text-size-adjust: 100px;
+}
+
+.table-container{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+}
